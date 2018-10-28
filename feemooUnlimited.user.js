@@ -8,6 +8,7 @@
 // @include http://www.ccchoo.com/down*.html
 // @match https://*.feemoo.com/fmdown*
 // @match https://*.feemoo.com/s/*
+// @updateURL https://github.com/H1d3r/MonkeyScript/raw/master/feemooUnlimited.user.js
 // @version                1.0
 // ==/UserScript==
 
