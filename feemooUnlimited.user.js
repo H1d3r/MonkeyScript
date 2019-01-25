@@ -24,3 +24,4 @@ for(var i = 0 ; i < cookies.length; i++){
 });
     $.removeCookie(cookies[i],{ path: '/'});
 }
+layer.closeAll(); //关闭按钮
