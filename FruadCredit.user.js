@@ -4,6 +4,7 @@
 // @namespace   CreditScripts
 // @match       *://*.xyz/*
 // @include     *://*.xyz/*
+// @include     *://*.cc/*
 // @grant       none
 // @version     1.0
 // @run-at      document-start
