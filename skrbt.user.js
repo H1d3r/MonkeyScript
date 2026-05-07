@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         SKR磁力链接自动下载并关闭标签页
 // @namespace    https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
-// @version      0.1
+// @version      0.2
 // @description  自动点击ID为magnet的链接，弹窗显示内容，5秒后关闭标签页
 // @author       H1d3r
-// @match        *://skrbttv.top/detail/*  
+// @match        *://skrbttv.top/detail/*
+// @match        *://skrbtso.cc/detail/*  
 // @downloadURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @updateURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @grant        none
