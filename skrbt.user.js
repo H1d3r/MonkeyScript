@@ -5,7 +5,9 @@
 // @description  自动点击ID为magnet的链接，弹窗显示内容，5秒后关闭标签页
 // @author       H1d3r
 // @match        *://skrbttv.top/detail/*
-// @match        *://skrbtso.cc/detail/*  
+// @match        *://skrbtso.cc/detail/*
+// @match        *://skrbtzc.top/detail/*
+// @match        *://skrbt??.top/detail/*
 // @downloadURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @updateURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @grant        none
