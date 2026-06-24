@@ -8,6 +8,7 @@
 // @match        *://skrbtso.cc/detail/*
 // @match        *://skrbtzc.top/detail/*
 // @match        *://skrbt??.top/detail/*
+// @match        *://skrbt??.cc/detail/*
 // @downloadURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @updateURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @grant        none
