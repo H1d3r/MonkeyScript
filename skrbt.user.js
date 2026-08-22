@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         SKR磁力链接自动下载并关闭标签页
 // @namespace    https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
-// @version      0.2
+// @version      0.4
 // @description  自动点击ID为magnet的链接，弹窗显示内容，5秒后关闭标签页
 // @author       H1d3r
 // @match        *://skrbttv.top/detail/*
 // @match        *://skrbtso.cc/detail/*
 // @match        *://skrbtzc.top/detail/*
-// @match        *://skrbt??.top/detail/*
-// @match        *://skrbt??.cc/detail/*
-// @downloadURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
-// @updateURL https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
+// @match        *://skrbtdo.cc/detail/*
+// @match        *://openbtao.cc/*/torrents/*
+// @downloadURL  https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
+// @updateURL    https://github.com/H1d3r/MonkeyScript/raw/refs/heads/master/skrbt.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -20,7 +20,7 @@
     // 主逻辑函数
     const executeAction = () => {
         // 1. 查找 id 为 "magnet" 的元素
-        const targetLink = document.getElementById('magnet');
+        const targetLink = document.getElementById('magnet') || document.querySelector("#detailRoot > header > div.detail__actions > a.btn.btn--primary.btn--lg") ;
 
         if (targetLink && targetLink.href) {
             // 2. 点击该链接
@@ -30,7 +30,7 @@
             // 3. 1 秒后关闭当前标签页
             setTimeout(() => {
                 window.close();
-            }, 1);
+            }, 2);
 
             return true;
         }
